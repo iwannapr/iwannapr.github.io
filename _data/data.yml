@@ -9,7 +9,7 @@ contact:
   # meta
   location: Athens, Greece # location
   email: ioanpreka@gmail.com    # email address
-  phone:  # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  phone: # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
 
   gender:                  # gender or pronoun
   birthday:                # birthday
@@ -92,6 +92,19 @@ experience:
   title: Work Experience
   description: |
   items:
+    - company: Netcompany
+      link: 'https://netcompany.com/'
+      tags: Full-time, Hybrid
+      date: 2025.02 - Present
+      role: Java Software Engineer
+      location: Athens
+      description: |
+        Current role as a Java Backend Engineer for Solon Tax Product.
+        + Implement, test and deploy new features based on Product Management team requirements.
+        + Collaborate closely with Frontend and QA teams throughout the development lifecycle to deliver new features.
+        + Participate in a team that practices Agile-based planning.
+        + Present completed features to the broader product team.
+
     - company: Cognity S.A.
       link: 'https://www.cognity.gr/'
       tags: Full-time, Hybrid
@@ -101,7 +114,7 @@ experience:
       description: |
         Primary role as a Java Developer on Cosmote App BFF.
         + Engaged in multiple projects like: Cosmote One, Cosmote NEO, Certificate of Ownership retrieval.
-        + Implemented, deployed and tested new features.
+        + Implemented, tested and deployed new features.
         + Participated during feasibility, analysis and design phases on projects.
         + Worked as standby support for production issues.
         + Reviewed code implementations of junior team members.
@@ -329,7 +342,8 @@ language:
       level: Native
     - idiom: English
       level: Proficient
-
+    - idiom: German
+      level: Beginner
 interest:
   show: false
   order: 6
